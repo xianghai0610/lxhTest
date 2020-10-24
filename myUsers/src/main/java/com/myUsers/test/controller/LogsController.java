@@ -35,4 +35,10 @@ public class LogsController {
 
     }
 
+    public void  deleteUsers(Integer id){
+
+        boolean b = iUsersService.removeById(id);
+
+    }
+
 }
